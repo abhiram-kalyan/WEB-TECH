@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Form</title>
+    </head>
+    <style>
+        label {
+            display: inline-block;
+            clear: left;
+            width: 250px;
+        }
+
+        input{
+              display: inline-block;
+            }
+       
+   </style>
+    <body >
+        <h1>Registration Form</h1>
+        <div class="detail-collection-form">
+        <form name="form1"id="collection-form"  method="post">
+            
+            <label for="name">Name : </label>
+            <input type="text" name="name" id="name" >
+            <br>
+            <br>
+            <label  for="gender">Gender: </label>
+            <input type="radio" name="gender" id="male" value="male" >
+            <label style="width: 50px" for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label style="width: 50px" for="female">Female</label>
+            <input type="radio" name="gender" id="other" value="other">
+            <label for="other">Other</label>
+            <br>
+            <br>
+            <label for="college-name">College Name: </label>
+            <input type="text" name="college-name" id="college-name">
+            <br>
+            <br>
+            <label for="branch">Branch : </label>
+            <select name="branch" id="branch">
+                <option value="CSE">CSE</option>
+                <option value="CSE-DA">CSE (spl. Data Analytics)</option>
+                <option value="CSE-AI">CSE (spl. Artificial Intelligence)</option>
+                <option value="CSE-NS">CSE (spl. Network Security)</option>
+                <option value="ECE">ECE</option>
+                <option value="MEC">MEC</option>
+            </select>
+            <br>
+            <br>
+            <label for="email">Email ID : </label>
+            <input type="text" name="email" id="email">
+            <br>
+            <br>
+            <label for="mobile">Mobile Number : </label>
+            <input type="text" name="mobile" id="mobile">
+            <br>
+            <br>
+            <input id="submit-button" type="submit" value="Submit" onclick="validateForm(document.form1)"" >
+            
+        </form>
+    </div>
+    <script src="validation.js"></script>
+    </body>
