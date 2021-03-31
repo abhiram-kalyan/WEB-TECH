@@ -1,0 +1,32 @@
+{ "employee" : [
+        
+        {
+            "EmpName": "Abhiram",
+            "email": "abhiram.19bcd7118@vitap.ac.in",
+            "Salary": 25000,
+            "Experience": 3,
+            "Designation": "VicePresident"
+        },
+        {
+            "EmpName": "Adithya",
+            "email": "adithya.19bce7119@vitap.ac.in",
+            "Salary": 15000,
+            "Experience": 6,
+            "Designation": "Director"
+        },
+        {
+            "EmpName": "Santhosh",
+            "email": "santhosh.19bcn7191@vitap.ac.in",
+            "Salary": 10000,
+            "Experience": 4,
+            "Designation": "EventLead"
+        },
+        {
+            "EmpName": "Kaushik",
+            "email": "kaushik.19bcd7371@vitap.ac.in",
+            "Salary": 17000,
+            "Experience": 6,
+            "Designation": "Architect"
+        }
+    ]
+}

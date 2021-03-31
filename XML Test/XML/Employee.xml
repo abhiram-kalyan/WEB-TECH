@@ -1,0 +1,24 @@
+<employees>
+    
+    <employee>
+        <name>Abhiram</name>
+        <email>abhiram.19bcd7118@vitap.ac.in</email>
+        <salary>65000</salary>
+        <designation>Marketing</designation>
+        <experience>11</experience>
+    </employee>
+    <employee>
+        <name>Adithya</name>
+        <email>adithya.19bce7119@vitap.ac.in</email>
+        <salary>75000</salary>
+        <designation>Administrative</designation>
+        <experience>10</experience>
+    </employee>
+    <employee>
+        <name>Santhosh</name>
+        <email>santhosh.19bcn7191@vitap.ac.in</email>
+        <salary>50000</salary>
+        <designation>Technical</designation>
+        <experience>12</experience>
+    </employee>
+</employees>
